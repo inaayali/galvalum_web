@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#topbar {
+  background-color: #01ab00;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.top-nav {
+  list-style: none;
+}
+
+#topbar li {
+  display: inline-block;
+}
+
+#topbar li a {
+  color: #ffffff;
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+nav {
+  margin: 0px 0px 0px 80px;
+}
+
+#my-nav {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0px 0px 0px 250px;
+}
+
+.nav-item {
+  padding: 0px 15px;
+}
+
+nav ul li:hover {
+  border-radius: 30px;
+  background: #68ca68;
+  box-shadow: 0px 0px 10px #68ca68,
+              0px 0px 20px #68ca68,
+              0px 0px 40px #68ca68,
+              0px 0px 80px #68ca68,
+              0px 0px 160px #68ca68;
+}
+
+#pembuka {
+  font-weight: 600;
+  padding: 50px 150px;
+}
+
+#proyek {
+  padding: 50px 100px;
+}
+
+.keunggulan {
+  display: flex;
+}
+
+footer {
+  background-color: #00660D;
+  padding-top: 50px;
+}
+
+.kontak {
+  list-style: none;
+}
+
+.kontak li a {
+  color: #ffffff;
+  padding: 20 0px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  padding: 5px;
+  background-color: #01ab00;
+  color: #54595F;
+  text-align: center;
+}
+
+/* CSS HUBUNGI */
+.hub {
+  list-style: none;
+}
+
+.hub li a {
+  color: #000000;
+  padding: 20 0px;
+  text-decoration: none;
+}
